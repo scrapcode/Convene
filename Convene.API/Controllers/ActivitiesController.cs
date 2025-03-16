@@ -24,6 +24,16 @@ public class ActivitiesController(AppDbContext context) : BaseApiController
         return await context.Activities.ToListAsync();
     }
 
+    /// <summary>
+    /// Retrieves a single activity.
+    /// </summary>
+    /// <remarks>
+    /// This endpoint returns a specified activity.
+    /// </remarks>
+    /// <param name="id">Id of the activity to be returned</param>
+    /// <response code="200">Returns the activity</response>
+    /// <response code="500">If there was an internal server error</response>
+    /// <returns>A single activity</returns>
     [HttpGet("{id}")]
     public async Task<ActionResult<Activity>> GetActivityDetail(string id)
     {
