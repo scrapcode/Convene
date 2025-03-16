@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convene.API", "Convene.API\Convene.API.csproj", "{77A7ACA9-C68E-4048-A9B7-61595C90C876}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convene.Application", "Convene.Application\Convene.Application.csproj", "{B4158F77-358C-4A6B-989C-64B4C1EBEA6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convene.Domain", "Convene.Domain\Convene.Domain.csproj", "{35605E72-877C-4C7C-857E-5846C8D56515}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convene.Persistence", "Convene.Persistence\Convene.Persistence.csproj", "{05043DBA-C462-404A-BAFF-499FE3FD1276}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77A7ACA9-C68E-4048-A9B7-61595C90C876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77A7ACA9-C68E-4048-A9B7-61595C90C876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77A7ACA9-C68E-4048-A9B7-61595C90C876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77A7ACA9-C68E-4048-A9B7-61595C90C876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4158F77-358C-4A6B-989C-64B4C1EBEA6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4158F77-358C-4A6B-989C-64B4C1EBEA6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4158F77-358C-4A6B-989C-64B4C1EBEA6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4158F77-358C-4A6B-989C-64B4C1EBEA6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35605E72-877C-4C7C-857E-5846C8D56515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35605E72-877C-4C7C-857E-5846C8D56515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35605E72-877C-4C7C-857E-5846C8D56515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35605E72-877C-4C7C-857E-5846C8D56515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05043DBA-C462-404A-BAFF-499FE3FD1276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05043DBA-C462-404A-BAFF-499FE3FD1276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05043DBA-C462-404A-BAFF-499FE3FD1276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05043DBA-C462-404A-BAFF-499FE3FD1276}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
