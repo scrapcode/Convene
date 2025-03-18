@@ -1,10 +1,12 @@
 import axios from "axios";
 
-// const sleep = (delay: number) => {
-//     return new Promise(resolve => {
-//         setTimeout(resolve, delay)
-//     });
-// }
+// To simulate behavior during longer processing times.
+
+const sleep = (delay: number) => {
+    return new Promise(resolve => {
+        setTimeout(resolve, delay)
+    });
+}
 
 const agent = axios.create({
     baseURL: import.meta.env.VITE_API_URL
@@ -12,7 +14,7 @@ const agent = axios.create({
 
 agent.interceptors.response.use(async response => {
     try {
-        // await sleep(1000);
+        await sleep(1000); // To simulate behavior during longer processing times.
         return response;
     } catch (error) {
         console.log(error)
